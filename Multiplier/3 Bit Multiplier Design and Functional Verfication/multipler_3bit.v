@@ -16,7 +16,7 @@ output [5:0]P
  
  assign w8   = A[2] & B[1];
  half_adder  HA2(w7,w8,w10,w9);
- 
+  
  assign w11 = A[0] & B[2];
  half_adder  HA3(w6,w11,P[2],w12); 
  
