@@ -10,5 +10,5 @@ assign w1   = A[1] & B[0];
 assign w2   = A[0] & B[1];
 half_adder HA1(w1,w2,P[1],w3);
 assign w4   = A[1] & B[1];
-half_adder HA2 (w3,w4,P[2],P[3]);
+half_adder HA2 (w3,w4,P[2],P[3]); 
 endmodule
